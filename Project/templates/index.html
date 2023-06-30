@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Medistats: Unveiling Insights, Transforming Healthcare Costs</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="static/assets/img/favicon.png" rel="icon">
+  <link href="static/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="static/assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="static/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="static/assets/css/style.css" rel="stylesheet">
+
+  
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+  <div id="topbar" class="d-flex align-items-center fixed-top">
+    <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
+      <div class="align-items-center d-none d-md-flex">
+        <i class="bi bi-clock"></i> Unveiling Insights, Transforming Healthcare Costs
+      </div>
+      <div class="d-flex align-items-center">
+        <i class="bi bi-phone"></i> Version 1.0
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <a href="index.html" class="logo me-auto"><img src="static/assets/img/logo.png" alt=""></a>
+      
+      <!-- <h1 class="logo me-auto"><a href="index.html">Medistats</a></h1> -->
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto " href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#features">Features</a></li>
+          <li><a class="nav-link scrollto" href="#appointment">Dashboard</a></li>
+          <li><a class="nav-link scrollto" href="#services">Story</a></li>
+          <li><a class="nav-link scrollto" href="#analysis">OR Analysis</a></li>
+          <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+          <li><a class="nav-link scrollto" href="#faq">FAQ</a></li>
+         
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <a href="#gallery" class="appointment-btn scrollto"><span class="d-none d-md-inline">Visuals</span></a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url(static/assets/img/slide/slide-1.jpg)">
+          <div class="container">
+            <h2>Welcome to <span>Medistats</span></h2>
+            <p>Welcome to our project on the <b>Estimation and Prediction of Hospitalization and Medical Care Costs!</b> We leverage advanced data analytics techniques to uncover the factors influencing medical expenses. </p>
+            <a href="#about" class="btn-get-started scrollto">Read More</a>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url(static/assets/img/slide/slide-2.jpg)">
+          <div class="container">
+            <h2>Compelling Visualizations</h2>
+            <p>Through interactive <b>data visualizations</b>, we provide insights into the relationships between variables such as age, gender, BMI, smoking habits, and region, enabling informed decision-making. Join us on this data-driven journey to unravel the complexities of healthcare costs and contribute to the advancement of healthcare knowledge. Explore, analyze, and predict medical care expenses with our powerful platform.</p>
+            <a href="#about" class="btn-get-started scrollto">Read More</a>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="background-image: url(static/assets/img/slide/slide-3.jpg)">
+          <div class="container">
+            <h2>Come and Explore</h2>
+            <p>Join us on this <b>data-driven journey</b> to unravel the complexities of healthcare costs and contribute to the advancement of healthcare knowledge. Explore, analyze, and predict medical care expenses with our powerful platform.</p>
+            <a href="#about" class="btn-get-started scrollto">Read More</a>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Featured Services Section ======= -->
+    <section id="featured-services" class="featured-services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><i class="fas fa-heartbeat"></i></div>
+              <h4 class="title"><a href="">UNCOVER</a></h4>
+              <p class="description">the financial implications of various medical conditions on and beyond the heart.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon"><i class="fas fa-pills"></i></div>
+              <h4 class="title"><a href="">GAIN</a></h4>
+              <p class="description">valuable financial insights into the medical expense realm.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><i class="fas fa-thermometer"></i></div>
+              <h4 class="title"><a href="">EMPOWER</a></h4>
+              <p class="description">individuals with proactive financial planning by providing accurate cost projections.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+              <div class="icon"><i class="fas fa-dna"></i></div>
+              <h4 class="title"><a href="">SAVE</a></h4>
+              <p class="description">your time by making quick-informed decisions through inferencing our visualizations.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Featured Services Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="text-center">
+          <h3>In a Hurry? Dive into our Visuals!</h3>
+          <p> Discover the power of data visualization instantly. Our project offers intuitive and interactive visuals for quick insights into medical costs. Explore charts, graphs, and maps to make informed decisions in no time. Experience the convenience of understanding complex data at a glance.</p>
+          <a class="cta-btn scrollto" href="#appointment">Let's Go</a>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About Us</h2>
+          <p>Welcome to our project on the Estimation and Prediction of Hospitalization and Medical Care Costs! We are a team of dedicated individuals passionate about exploring the intersection of healthcare and data analysis.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-right">
+            <img src="static/assets/img/about1.jpg" class="img-fluid" style="height:auto;" alt=""><br><br><br>
+            <img src="static/assets/img/about.jpg" class="img-fluid" style="height:auto;" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Team Introduction:</h3>
+            <p class="fst-italic">
+              Allow us to introduce ourselves:
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i><b>Aditya:</b> Hi, I'm Aditya! With an interest in statistics, I bring my passion in analyzing complex datasets and extracting meaningful insights. I'm excited to dive deep into the realm of healthcare data to uncover patterns and trends related to medical costs.</li>
+              <li><i class="bi bi-check-circle"></i><b>Divyansh:</b> Hello, I'm Divyansh! As a data scientist, I thrive on transforming raw data into actionable information. I'm fascinated by the possibilities of using data analytics to understand the factors influencing hospitalization and medical care costs. Let's discover the hidden stories within the numbers!</li>
+              <li><i class="bi bi-check-circle"></i><b>Sutanuka:</b> Greetings, I'm Sutanuka! My passion lies in healthcare research and policy analysis. By combining my knowledge of healthcare systems with data-driven approaches, I aim to contribute to a better understanding of cost estimation and prediction in medical care. Let's make a positive impact on healthcare outcomes!</li>
+              <li><i class="bi bi-check-circle"></i><b>Rishi:</b> Hi there, I'm Rishi! I specialize in data visualization and user experience design. I believe in the power of visual storytelling to communicate complex information effectively. Through intuitive and insightful visualizations, I strive to bring clarity and engagement to our project.</li>
+
+            </ul>
+            <p>
+              Together, we form a dynamic team, united by our shared goal of unraveling the complexities of hospitalization and medical care costs. Our project aims to provide valuable insights into the factors influencing medical expenses, enabling individuals and organizations to make informed decisions and improve healthcare outcomes.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row no-gutters">
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <i class="fas fa-user-md"></i>
+              <span data-purecounter-start="0" data-purecounter-end="1340" data-purecounter-duration="1" class="purecounter"></span>
+
+              <p><strong>Records</strong> were analysed</p>
+              <a href="https://www.kaggle.com/datasets/mirichoi0218/insurance">Find out more &raquo;</a> <!-- Dataset Link -->
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <i class="far fa-hospital"></i>
+              <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Members</strong> organized the project</p>
+              <a href="#about">Find out more &raquo;</a> <!-- About Us Section-->
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <i class="fas fa-flask"></i>
+              <span data-purecounter-start="0" data-purecounter-end="14" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>interactive</strong> visuals</p>
+              <a href="#gallery">Find out more &raquo;</a> 
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <i class="fas fa-award"></i>
+              <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>technologies</strong> implemented</p>
+              <a href="#" onclick="window.open('https://flask.palletsprojects.com/en/2.3.x/'); window.open('https://help.tableau.com/current/pro/desktop/en-us/gettingstarted_overview.htm');window.open('https://dev.mysql.com/doc/');window.open('https://getbootstrap.com/docs/4.1/getting-started/introduction/');">Find out more &raquo;</a> <!--Documentation links. Won't work with pop-up blockers-->
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 order-2 order-lg-1" data-aos="fade-right">
+            <div class="icon-box mt-5 mt-lg-0">
+              <i class="bx bx-receipt"></i>
+              <h4>Interactive Visualizations</h4>
+              <p>Explore dynamic charts, graphs, and maps that allow you to interact with medical cost data, enabling a deeper understanding of patterns and relationships.</p>
+            </div>
+            <div class="icon-box mt-5">
+              <i class="bx bx-cube-alt"></i>
+              <h4>Customizable Views</h4>
+              <p>Tailored visualizations to your needs by adjusted parameters, filters, and variables, focusing on specific aspects of medical costs for personalized insights.</p>
+            </div>
+            <div class="icon-box mt-5">
+              <i class="bx bx-images"></i>
+              <h4>Comparative Analysis</h4>
+              <p>Compare scenarios, and variables using visualizations that facilitate side-by-side analysis, helping identify trends, patterns, and outliers.</p>
+            </div>
+            <div class="icon-box mt-5">
+              <i class="bx bx-shield"></i>
+              <h4>Storytelling Capabilities</h4>
+              <p>Experience engaging visual narratives that combine visual elements, annotations, and narratives to communicate complex medical cost information effectively.</p>
+            </div>
+          </div>
+          <div class="image col-lg-6 order-1 order-lg-2" style='background-image: url("static/assets/img/features.jpg");' data-aos="zoom-in"></div>
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+
+
+    <!-- ======= Departments Section ======= 
+    <section id="departments" class="departments">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Departments</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4 mb-5 mb-lg-0">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
+                  <h4>Cardiology</h4>
+                  <p>Quis excepturi porro totam sint earum quo nulla perspiciatis eius.</p>
+                </a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+                  <h4>Neurology</h4>
+                  <p>Voluptas vel esse repudiandae quo excepturi.</p>
+                </a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
+                  <h4>Hepatology</h4>
+                  <p>Velit veniam ipsa sit nihil blanditiis mollitia natus.</p>
+                </a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
+                  <h4>Pediatrics</h4>
+                  <p>Ratione hic sapiente nostrum doloremque illum nulla praesentium id</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-8">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="tab-1">
+                <h3>Cardiology</h3>
+                <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
+                <img src="static/assets/img/departments-1.jpg" alt="" class="img-fluid">
+                <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+              </div>
+              <div class="tab-pane" id="tab-2">
+                <h3>Neurology</h3>
+                <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
+                <img src="static/assets/img/departments-2.jpg" alt="" class="img-fluid">
+                <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+              </div>
+              <div class="tab-pane" id="tab-3">
+                <h3>Hepatology</h3>
+                <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
+                <img src="static/assets/img/departments-3.jpg" alt="" class="img-fluid">
+                <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+              </div>
+              <div class="tab-pane" id="tab-4">
+                <h3>Pediatrics</h3>
+                <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
+                <img src="static/assets/img/departments-4.jpg" alt="" class="img-fluid">
+                <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section> End Departments Section -->
+
+    <!-- ======= Testimonials Section ======= 
+    <section id="testimonials" class="testimonials">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Testimonials</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="static/assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+              </div>
+            </div> End testimonial item 
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="static/assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+              </div>
+            </div> End testimonial item 
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="static/assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+              </div>
+            </div> End testimonial item 
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="static/assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+              </div>
+            </div> End testimonial item 
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="static/assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+              </div>
+            </div> End testimonial item 
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section> End Testimonials Section -->
+
+    <!-- ======= Doctors Section ======= 
+    <section id="doctors" class="doctors section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Doctors</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="static/assets/img/doctors/doctors-1.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Walter White</h4>
+                <span>Chief Medical Officer</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="200">
+              <div class="member-img">
+                <img src="static/assets/img/doctors/doctors-2.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Sarah Jhonson</h4>
+                <span>Anesthesiologist</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+              <div class="member-img">
+                <img src="static/assets/img/doctors/doctors-3.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>William Anderson</h4>
+                <span>Cardiology</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="400">
+              <div class="member-img">
+                <img src="static/assets/img/doctors/doctors-4.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Amanda Jepson</h4>
+                <span>Neurosurgeon</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section> End Doctors Section -->
+
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Gallery</h2>
+          <p>A collection of interactive visuals showcasing the estimation and prediction of hospitalization and medical care costs. Explore insightful charts, graphs, and maps that provide a deeper understanding of healthcare expenses.</p>
+        </div>
+
+        <div class="gallery-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><a class="gallery-lightbox" href="static/assets/img/gallery/gallery-1.jpg"><img src="static/assets/img/gallery/gallery-1.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href="static/assets/img/gallery/gallery-2.jpg"><img src="static/assets/img/gallery/gallery-2.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href="static/assets/img/gallery/gallery-3.jpg"><img src="static/assets/img/gallery/gallery-3.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href="static/assets/img/gallery/gallery-4.jpg"><img src="static/assets/img/gallery/gallery-4.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href="static/assets/img/gallery/gallery-5.jpg"><img src="static/assets/img/gallery/gallery-5.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href="static/assets/img/gallery/gallery-6.jpg"><img src="static/assets/img/gallery/gallery-6.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href="static/assets/img/gallery/gallery-7.jpg"><img src="static/assets/img/gallery/gallery-7.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href="static/assets/img/gallery/gallery-8.jpg"><img src="static/assets/img/gallery/gallery-8.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href="static/assets/img/gallery/gallery-9.jpg"><img src="static/assets/img/gallery/gallery-9.jpg" class="img-fluid" alt=""></a></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Gallery Section -->
+
+
+    <!-- ======= Dashboard Section ======= -->
+    <section id="appointment" class="appointment section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Dashboard</h2>
+          <p>Explore our comprehensive dashboards for insightful analysis of hospitalization and medical care costs. Customize and filter data, uncover trends, and make data-driven decisions. Experience the power of visualizations in driving informed strategies and improving healthcare outcomes.</p>
+          <div class='tableauPlaceholder' id='viz1688039609529' style='position: relative'>
+            <noscript>
+              <a href='#'>
+                <img alt='Dashboard 4 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;DA&#47;DAproject_16879674240780&#47;Dashboard4&#47;1_rss.png' style='border: none' />
+              </a>
+            </noscript>
+            <object class='tableauViz' style='display:none;'>
+              <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+              <param name='embed_code_version' value='3' />
+              <param name='site_root' value='' />
+              <param name='name' value='DAproject_16879674240780&#47;Dashboard4' />
+              <param name='tabs' value='no' />
+              <param name='toolbar' value='yes' />
+              <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;DA&#47;DAproject_16879674240780&#47;Dashboard4&#47;1.png' />
+              <param name='animate_transition' value='yes' />
+              <param name='display_static_image' value='yes' />
+              <param name='display_spinner' value='yes' />
+              <param name='display_overlay' value='yes' />
+              <param name='display_count' value='yes' />
+              <param name='language' value='en-US' />
+            </object>
+          </div>
+          <script type='text/javascript'>
+            var divElement = document.getElementById('viz1688039609529');
+            var vizElement = divElement.getElementsByTagName('object')[0];
+            if (divElement.offsetWidth > 800) {
+              vizElement.style.width = '1000px';
+              vizElement.style.height = '827px';
+            } else if (divElement.offsetWidth > 500) {
+              vizElement.style.width = '1000px';
+              vizElement.style.height = '827px';
+            } else {
+              vizElement.style.width = '100%';
+              vizElement.style.height = '877px';
+            }
+            var scriptElement = document.createElement('script');
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+          </script>
+        </div>
+        
+      </div>
+    </section><!-- End Dashboard Section -->
+       <!-- ======= Story Section ======= -->
+    <section id="services" class="services services">
+      <div class="section-title">
+        <h2>Story</h2>
+        <p>Embark on a captivating journey through our Stories section, where we bring medical cost analysis to life. Dive into compelling narratives that blend data visualizations and storytelling techniques, offering unique perspectives and deep insights into the complex world of healthcare expenses.</p>
+        <div class='tableauPlaceholder' id='viz1688039896287' style='position: relative'>
+          <noscript>
+            <a href='#'>
+              <img alt='Story ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;YB&#47;YBBWGHRY8&#47;1_rss.png' style='border: none' />
+            </a>
+          </noscript>
+          <object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='path' value='shared&#47;YBBWGHRY8' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;YB&#47;YBBWGHRY8&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en-US' />
+          </object>
+        </div>
+        <script type='text/javascript'>
+          var divElement = document.getElementById('viz1688039896287');
+          var vizElement = divElement.getElementsByTagName('object')[0];
+          vizElement.style.width = '100%';
+          vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+          var scriptElement = document.createElement('script');
+          scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+          vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+      </div>
+    </section>
+    
+    <!-- Analysis section -->
+    <section id="analysis" class="services services">
+      <div class="section-title">
+        <h2>Odds Ratio Analysis</h2>
+        <p>Introducing Odds Ratio Analysis: Unlock the Secrets of Healthcare Costs. Delve into our cutting-edge feature that explores the intricate relationships between BMI, smoking, sex, and medical charges. Uncover hidden patterns and gain valuable insights to make informed decisions. Harness the power of odds and revolutionize your understanding of healthcare economics.</p>
+        <br>
+      </div>
+        <div class="gallery-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><a class="gallery-lightbox" href="static/assets/img/gallery 1/gallery-1.jpg"><img src="static/assets/img/gallery 1/gallery-1.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href="static/assets/img/gallery 1/gallery-2.jpg"><img src="static/assets/img/gallery 1/gallery-2.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href="static/assets/img/gallery 1/gallery-3.jpg"><img src="static/assets/img/gallery 1/gallery-3.jpg" class="img-fluid" alt=""></a></div>
+          </div>
+        <br><br><br>
+        <div class="swiper-pagination"></div>
+
+        </div>
+        <div class="section-title">
+          <h4>Our cutting-edge Odds Ratio Analysis reveals remarkable findings!</h4>
+          <div class="container" data-aos="fade-up">
+
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1" data-aos="fade-right">
+                <div class="icon-box mt-5 mt-lg-0">
+                  <i class="bx bx-receipt"></i>
+                  <h4>Odds Ratio for BMI</h4>
+                  <p>BMI showcases a compelling relationship, with an Odds Ratio of 0.0485 (95% CI: 0.0359 - 0.0656).</p>
+                </div>
+                <div class="icon-box mt-5">
+                  <i class="bx bx-cube-alt"></i>
+                  <h4>Odds Ratio for Sex</h4>
+                  <p>Sex, while not exhibiting significant influence (Odds Ratio: 1.1301, 95% CI: 0.8969 - 1.4239), provides valuable contextual insights.</p>
+                </div>
+                <div class="icon-box mt-5">
+                  <i class="bx bx-images"></i>
+                  <h4>Odds Ratio for Smoking</h4>
+                  <p>Smoking emerges as the dominant factor, with an astounding Odds Ratio of 1703 (95% CI: 237.1882 - 12227.4568).</p>
+                </div>
+              </div>
+              <div class="image col-lg-6 order-1 order-lg-2" style='background-image: url("static/assets/img/features 1.jpg");' data-aos="zoom-in"></div>
+            </div>
+          <br>
+        </div>
+        <br><br>
+        <div class="section-title">
+          <h4>Say No to Smoking!</h4>
+          <p>Our analysis reveals that smoking has the highest odds for contributing to medical expenses, with a remarkable impact on healthcare costs. The findings emphasize the detrimental effects of smoking on both health and financial well-being. It serves as a stark reminder that smoking is not only injurious to health but also exerts a significant financial burden on individuals and the healthcare system.</p>
+        </div>
+<!-- Analysis section End -->
+    <!-- ======= Frequently Asked Questioins Section ======= -->
+    <section id="faq" class="faq section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Frequently Asked Questions</h2>
+          <p>Browse through our frequently asked questions (FAQ) section to find quick answers to common inquiries about our project. Gain insights into cost estimation, data sources, customization options, accuracy of predictions, and more. Discover the information you need to make informed decisions about healthcare expenses.</p>
+        </div>
+
+        <ul class="faq-list">
+
+          <li>
+            <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">How can this project help me estimate and predict my personal medical care costs? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Our project utilizes advanced data analytics techniques to analyze various factors that influence medical care costs, such as age, BMI, smoking habits, and more. By comparing your relevant information with our visuals, you can receive approximate cost estimates and predictions.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">What data sources are used in the estimation and prediction of hospitalization and medical care costs? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                In our project, we utilize the comprehensive insurance dataset available <a href = "https://www.kaggle.com/datasets/mirichoi0218/insurance">here.</a> This dataset contains valuable information such as age, gender, BMI, smoking habits, region, and medical charges. By leveraging this dataset, we derived meaningful insights and accurate predictions regarding healthcare costs.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">Are the cost predictions provided by this project specific to a particular region or applicable globally? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                The cost predictions generated from our project can be customized based on the available data and can be applied to different regions or specific locations. However, it's important to consider that local healthcare systems, insurance coverage, and other regional factors may influence the accuracy of these predictions.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">Can I customize the variables and parameters used in the cost estimation visualizations?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                No, unfortunately our project doesn't offer flexibility in customizing the variables and parameters used in the cost estimation visuals. You can however alter the filters based upon specific factors like age, BMI and smoking habits.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">Are the cost predictions provided by this project accurate? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq5" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                The accuracy of the cost predictions in this project is subjective and depends on the viewer's capability to interpret and analyze the provided data visualizations. Our project presents the available medical cost data accurately, allowing users to draw their own conclusions and insights based on the displayed information. The accuracy of any predictions or inferences made based on the visualizations may vary depending on individual interpretation and analysis skills.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">What is the real world impact of your project? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq6" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Our project has a real-world impact by empowering stakeholders with valuable insights into medical care costs, enabling informed decision-making, resource optimization, and improved financial management. Ultimately, our project aims to contribute to a more transparent, efficient, and sustainable healthcare ecosystem.
+              </p>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+    </section><!-- End Frequently Asked Questioins Section -->
+
+    <!-- ======= Contact Section ======= -->
+    
+
+  </main><!-- End #main -->
+
+  
+
+  <!-- Vendor JS Files -->
+  <script src="static/assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="static/assets/vendor/aos/aos.js"></script>
+  <script src="static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="static/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="static/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="static/assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="static/assets/js/main.js"></script>
+
+</body>
+
+</html>
